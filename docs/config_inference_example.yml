@@ -1,0 +1,15 @@
+data:
+  root_dir: '/mounts/Datasets3/2024-2025-ChallengePlankton/'
+  trainpath: '/mounts/Datasets3/2024-2025-ChallengePlankton/train/'
+  testpath: '/mounts/Datasets3/2024-2025-ChallengePlankton/test/'
+
+test:
+  models_dir: '~/logs/'
+  models_name:
+    - FPN_0_20250213-120457
+    - Linknet_0_20250213-120839
+  model_weight_name: 'best_model.pt'
+  model_config_name: 'config.yaml'
+  use_train: false
+  threshold: 0.5
+  use_tta : False
